@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+   
+}
+
+
+.mainbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+     color: white;
+       background-color: rgba(0, 0, 0, 0.326);
+
+    height: 100px;
+    width: 100%;
+  justify-content: space-evenly;
+
+
+
+ 
+
+
+  }
+  
+  
+  
+ 
+
+
+
+  nav li a {
+      text-decoration: none;
+      color: white;
+     white-space: nowrap;
+     
+  }
+nav ul{
+list-style: none;
+  display: flex;
+ margin-left: 100px;
+ 
+}
+.search-icon {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-right: -150px;
+}
+ul li {
+ margin-right: 40px;
+ font-weight: normal bold;
+ font-size: 27px;
+
+}
+ 
+ul li select{
+    height: 35px;
+    width: 180px;
+ background-color: transparent;
+ border: none;
+ font-size: 20px;
+ color: white;
+ 
+
+}
+.search-icon{
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+
+}
+.contect-us{
+    display: flex;
+    
+    justify-content: center;
+    font-size: 25px;
+    text-decoration: none;
+    align-items: center;
+  margin-left:  100px;
+ 
+  background-color: #bb2469;
+  font-weight: 200;
+}
+.contect-us a{
+    color: white;
+    text-decoration: none;
+    border: 2x solid black;
+    white-space: nowrap;
+  width: 140px;
+  display: flex;
+justify-content: center;
+align-content: center;
+}
+
+ 
+nav ul li :hover {
+ background-color: rgba(224, 7, 7, 0.825);
+  transition: 1s; 
+  border-radius: 14px;
+  padding: 6px;
+ 
+}
+.grand
+{
+  border: 4px solid black;
+  height: 100vh;
+  width: 99%;
+
+  background-image: url(photo01.jpg);
+  
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  animation: krishna  20s linear  infinite ;
+}
+
+@keyframes krishna {
+  0%{
+background-image: url(photo01.jpg);
+  }
+  25%{
+    background-image: url(photo02.jpg);
+  }
+   50%{
+    background-image: url(photo03.jpg);
+  }
+  75%{
+    background-image: url(photo04.jpg);
+  }
+  100%{
+    background-image: url(photo05.jpg);
+  }
+  
+
+}
+
+.last
+{ height: 300px;
+  width: 100%;
+display:flex ;
+  
+}
+.last-logo{
+  border: 2px solid black;
+  height: 236px;
+width: 400px;
+
+}
+.links-bhaiya{
+  height: 60px;
+  width: 298px;
+  border: 2px solid black;
+
+}
+
+
+
+.container-02{
+  height: 300px;
+  width: 1200px;
+  border: 2px solid black;
+
+}
+.container-01{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 500px;
+  border: 2px solid black;
+}
+.bhaiya{
+  filter: brightness(800%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photoname{
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+/* background contant hai/ */
+.a-01 {
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+  /* display: flex; */
+  background-color:transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+
+} 
+.a-02{
+  font-size: 27px;
+  font-weight: 500;
+  font-family: "gordita3",Sans-serif;
+  display: flex;
+  background-color: transparent ;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top:  -45px;
+
+}
+/* tramsparent box */
+
+.transparent-box{
+  background-color: black;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.box-01{
+  background-color: red;
+height: 300px;
+width: 300px;
+margin-right: -400px;
+color: white;
+  
+}
+.box-02{
+  background-color : blue;
+ color: white;
+height: 300px;
+width: 300px;
+  
+}
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+
+
+}
+button  a{
+  color: white;
+  text-decoration: none;
+  background-color: rgb(155, 30, 30);
+ 
+}
+button{
+  width: 70px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+}

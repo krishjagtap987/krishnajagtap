@@ -1,0 +1,40 @@
+.display{
+    background-image: url(photo1.jpg);
+    background-size: contain;
+    background-position-x:right ;
+margin-right: 50px;
+  height: 700px;
+  width: 396px;
+  background-repeat: no-repeat;
+  
+  
+} 
+.discription{
+  border: 7px solid black;
+  height: 700px;
+  width: 30%;
+  margin-left: 250px;
+  justify-content: space-between;
+  box-shadow:1px 20px 15px gray ;
+}
+main{
+  background-image: url(login-photo.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  display: flex;
+  margin-top: 50px;
+  border: 8px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+  
+}
+.logo{
+  margin-top: 20px  ;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
